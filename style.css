@@ -1,0 +1,389 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background: rgb(235, 233, 233);
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.page {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    /* padding: 10px; */
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.searchbar {
+    width: 100%;
+    max-width: 220px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 50px;
+    padding:10px 18px;
+}
+::placeholder {
+    color: gray;
+}
+
+.searchbar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+}
+.img1 {
+    margin-left: 3%;
+}
+.font2 {
+    margin-right: 3%;
+}
+.img1>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.bars {
+    display: flex;
+}
+
+.fonts>a>i {
+    color: black;
+    padding: 10px;
+}
+.font2>a {
+    background: rgb(236, 234, 234);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.p1name i {
+    color: rgb(79, 78, 78);
+}
+.pname i {
+    color: rgb(13,110,253);
+}
+.p3name i {
+    color: rgb(13,110,253);
+}
+.p4name i {
+    color: rgb(255,193,7);
+}
+.p5name i {
+    color: rgb(164, 0, 0);
+}
+.p6name i {
+    color: rgb(34,206,240);
+}
+.p7name i {
+    color: rgb(13,110,253);
+}
+.p8name i {
+    color:  rgb(255,193,7);
+}
+.p9name i {
+    color: rgb(13,110,253);
+}
+.p10name i {
+    color: rgb(25,135,84);
+}
+.p11name i {
+    color: blue;
+}
+.good {
+    font-size: 10px;
+    font-weight: 00;
+}
+.font2>a>i {
+    color: black;
+}
+.part1i {
+    margin-left: 2%;
+    position: fixed;
+    width: 100%;
+    overflow-y: auto;
+}
+.part1i {
+    margin-left: 1%;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+.boxcont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 20%;
+    /* margin-top: -83%; */
+    margin-bottom: 3%;
+}
+.arrow {
+    position: absolute;
+    margin-left: 40%;
+    color: rgb(255, 255, 255);
+}
+.boxcont a i  {
+    background: rgb(90, 89, 89);
+    padding: 10px; 
+    border-radius: 50%;
+}
+.boxcont>div {
+    background: rgb(223, 223, 223);
+    width: 16%;
+    height: 160px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+.circlediv {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(190, 188, 188);
+    margin: 10px;
+}
+.box2 {
+    width: 400px;
+    height: 120px;
+    background: white;
+    border-radius: 7px;
+    margin-left: 25%;
+    padding: 18px;
+}
+.text1 {
+    display: flex;
+
+}
+.p2name {
+    color: rgb(192, 191, 191);
+    padding-top: 10px;
+    width: 34px;
+}
+.text {
+    background: rgb(223, 223, 223);
+    width: 400px;
+    height: 27px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.line {
+    border: 1px solid rgb(192, 191, 191);
+}
+.linei {
+    border: 1px solid rgb(192, 191, 191);
+    width: 219px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.vid {
+    color: red;
+}
+.phot {
+    color: green;
+}
+.feel {
+    color: rgb(255, 157, 0);
+}
+.textcolor {
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+}
+.box3 {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    margin-left: 270px;
+    width: 410px;
+    height: 70px;
+    background: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-bottom: 2%;
+}
+.boxcontent {
+    border: 1.5px solid blue;
+    padding: 12px;
+    border-radius: 25px;
+}
+.room {
+    color: blue;
+}
+.miniing {
+    padding: 3px;
+}
+.miniing a img {
+    width: 45px;
+    height: 45px;
+    border-radius: 60px;
+    padding: 10px;
+}
+.box4 {
+    background: white;
+    width: 440px;
+    height: 60px;
+    margin-left: 25%;
+    margin-bottom: 31.5%;
+    border-radius: 4px;
+}
+.miniing2 {
+    display: flex;
+}
+.miniing2 a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    padding: 10px;
+    margin-bottom: 5%;
+
+}
+.imgcont a img {
+    width: 440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: -2%;
+    z-index: 1;
+}
+.box4i {
+    background: white;
+    width: 440px;
+    height: 60px;
+    border-radius: 4px;
+    margin-top: -2%;
+
+}
+.part3 {
+    margin-left: 70%;
+    margin-top: -189%;
+    margin-right: 2%;
+    display: none;
+    position: fixed;
+    width: 29%;
+}
+.cont4 {
+    color: rgb(124, 124, 124);
+}
+.text4 {
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.fnt {
+    font-size: 12px;
+}
+.fnt>i {
+    color: black;
+}
+.req {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    font-weight: 700;
+}
+.img3 {
+    display: flex;
+     justify-content: space-between;
+}
+.img3 a img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.img3s a img     {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.text3 {
+    padding-top: 9px;
+    margin-right: 25%;
+    font-weight: 600;
+    font-size: 14px;
+}
+.week {
+    font-size: 10px;
+    padding-top: 9px;
+    text-align: center;
+}
+.img3i {
+    display: flex;
+    align-items: center;
+    margin-left: 24%;
+    margin-top: -11%;
+}
+.img3i a img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.text3i {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9px;
+}
+.btncont {
+    text-align: center;
+    padding: 5px 19px;
+    width: 50px;
+    border-radius: 5px;
+    background: rgb(56, 56, 255);
+    margin-right: 10px;
+
+}
+.btncont2 {
+    padding: 5px 19px;
+    width: 50px;
+    border-radius: 5px;
+    background: rgb(205, 203, 203);
+}
+.btn a {
+    color: white;
+}
+.btn2 a {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+/* @media screen and (min-width: 768px) {
+    .fonts {
+        display: flex;
+    }
+    .co>bars {
+        display: none;
+    }
+    .part3 {
+        display: block;
+    }
+    .searchbar {
+        display: none;
+    }
+
+} */
